@@ -278,3 +278,18 @@ button {
     color: rgb(219, 237, 219);
     cursor: pointer;
 }
+
+#score {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    position:relative;
+    
+    color:rgb(219, 237, 219);
+    font-size: 30px;
+    background-color: rgb(105, 129, 100);
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+}

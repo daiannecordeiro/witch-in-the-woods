@@ -1,6 +1,9 @@
 const witch = document.querySelector('.witch');
 const pumpkin = document.querySelector('.pumpkin');
 const gameOver = document.querySelector('.game-over');
+const score = document.querySelector('.score');
+
+let pontos = 0;   
 
 const layer0 = document.querySelector("#layer0");
 const layer1 = document.querySelector("#layer1");
@@ -84,4 +87,9 @@ const loopGameTouch = setInterval(() => {
         gameOver.style.display = "block";
 
         clearInterval(loopGame);
-    }},10)
+
+    } else {
+        pontos += 0.04  ;
+        score.innerHTML = `${pontos.toFixed(0)}`
+    }
+},10)
