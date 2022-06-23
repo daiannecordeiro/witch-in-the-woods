@@ -19,5 +19,5 @@
   <br>
   <p>Créditos para a música: <a href="https://www.chosic.com/download-audio/29628/">The Lone Wolf - Alexander Nakarada</a></p>
   <br>
-  <p>Créditos para a arte da personargem principal: <a href="https://www.behance.net/ilustradai">Daianne Cordeiro</a> </p>
+  <p>Créditos para a arte da personagem principal: <a href="https://www.behance.net/ilustradai">Daianne Cordeiro</a> </p>
 </div>
