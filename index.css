@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.witch {
+    height: 256px;
+    width: 256px;
+    position: absolute;
+    bottom:0;
+    margin-bottom: 90px;
+    margin-left: 150px; 
+}
+
+.pumpkin {
+    width: 500px;
+    position: absolute;
+    bottom:0;
+    margin-bottom: 90px;
+    transform: scaleX(-1);
+    animation: enemie-pumpkin 4s infinite linear;
+}
+
+@keyframes enemie-pumpkin{
+    from {
+        right: -500px;
+    }
+    to {
+        right: 100%;
+    }
+}
+
+.thorn {
+    width: 350px;
+    position: absolute;
+    margin-top: 540px;
+    animation: enemie-thorn 4s infinite linear;
+}
+
+@keyframes enemie-thorn {
+    from {
+        right: -350px;
+    }
+    to {
+        right: 100%;
+    }
+}
+
+.pulo {
+    animation: pulo-animacao 700ms ease-out; 
+ }
+
+#layer0 {
+    background: url('assets/img/BackgroundLayers/Layer_0.png');
+    background-repeat: repeat-x;
+    background-size:contain;    
+    height: 1300px;
+    width: 1920px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -5px;  
+    animation: layer0 2s infinite linear;
+    overflow: hidden;    
+}
+
+@keyframes layer0 {
+    from {
+        background-position: 2000px;
+    }
+    to {
+        background-position: 0%;
+    }
+}
+
+#layer1 {
+    background: url('assets/img/BackgroundLayers/Layer_1.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 1300px;
+    width: 1920px;
+    position: absolute;
+    bottom: 0;  
+    animation: layer1 10s infinite linear;
+    overflow: hidden;
+    
+}
+
+@keyframes layer1 {
+    from {
+        background-position: 2000px;
+    }
+    to {
+        background-position: 0%;
+    }
+}
+
+#layer2 {
+    background: url('assets/img/BackgroundLayers/Layer_2.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 1300px;
+    width: 1920px;
+    position: absolute;
+    bottom: 0;  
+    animation: layer2 15s infinite linear;
+    overflow: hidden;    
+}
+
+@keyframes layer2 {
+    from {
+        background-position: 2000px;
+    }
+    to {
+        background-position: 0%;
+    }
+}
+
+#layer3 {
+    background: url('assets/img/BackgroundLayers/Layer_3.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 1300px;
+    width: 1920px;
+    position: absolute;
+    bottom: 0;  
+    animation: layer3 15s infinite linear;
+    overflow: hidden;
+}
+
+#layer3-luz{
+    position: absolute;
+    bottom:0;
+    margin-bottom: 250px;
+}
+
+#layer5-luz{
+    position: absolute;
+    bottom:0;
+    margin-bottom: 250px;
+}
+
+@keyframes layer3{
+    from {
+        background-position: 2000px;
+    }
+    to {
+        background-position: 0%;
+    }
+}
+
+#layer4 {
+    background: url('assets/img/BackgroundLayers/Layer_4.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 1300px;
+    width: 1920px;
+    position: absolute;
+    bottom: 0;  
+    animation: layer4 30s infinite linear;
+    overflow: hidden;
+}
+
+@keyframes layer4 {
+    from {
+        background-position: 2000px;
+    }
+    to {
+        background-position: 0%;
+    }
+}
+
+#layer5 {
+    background: url('assets/img/BackgroundLayers/Layer_5.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 1300px;
+    width: 1920px;
+    position: absolute;
+    bottom: 0;  
+    animation: layer5 50s infinite linear;
+    overflow: hidden;
+}
+
+@keyframes layer5 {
+    from {
+        background-position: 2000px;
+    }
+    to {
+        background-position: 0%;
+    }
+}
+
+#layer6 {
+    background: url('assets/img/BackgroundLayers/Layer_6.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 1300px;
+    width: 1920px;
+    position: absolute;
+    bottom: 0;  
+    animation: layer6 80s infinite linear;
+    overflow: hidden;
+    opacity: 50%;
+}
+
+@keyframes layer6 {
+    from {
+        background-position: 2000px;
+    }
+    to {
+        background-position: 0%;
+    }
+}
+
+#layer-gradiente {
+    height: 700px;
+    width: 1920px;
+    position: absolute;
+    bottom: 0%;
+}
+
+@keyframes pulo-animacao {
+    0% {bottom:0}
+    40% {bottom: 350px;}
+    50% {bottom: 350px;}
+    60% {bottom: 380px;}
+    70% {bottom: 380px;}
+    80% {bottom: 350px;}
+    90% {bottom: 250px;}
+    100% {bottom: 0}
+}
+
+audio {
+    margin: 30px;
+    color: darkslategray;
+}
+
+.game-over {
+    display: none;
+    text-align: center;
+    margin-top: 150px;
+    background-color: transparent;
+    position: relative;
+    animation: game-over 3s infinite linear;
+}
+
+@keyframes game-over {
+    0% {bottom:30px}
+    50% {bottom: 0}
+    100% {bottom: 30px}
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 100px;
+    color: rgb(209, 65, 99);
+}
+
+button {
+    background-color: rgb(105, 129, 100);
+    border: none;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: medium;
+    color: rgb(219, 237, 219);
+    cursor: pointer;
+}
