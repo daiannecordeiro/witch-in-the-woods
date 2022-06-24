@@ -41,10 +41,12 @@
 }
 
 .thorn {
-    width: 350px;
+    width: 300px;
     position: absolute;
-    margin-top: 540px;
-    animation: enemie-thorn 4s infinite linear;
+    bottom:0;
+    margin-bottom: 65px;
+    right: -350px;
+    animation: enemie-thorn 5s infinite linear;
 }
 
 @keyframes enemie-thorn {
@@ -90,7 +92,7 @@
     width: 1920px;
     position: absolute;
     bottom: 0;  
-    animation: layer1 10s infinite linear;
+    animation: layer1 5s infinite linear;
     overflow: hidden;
     
 }
