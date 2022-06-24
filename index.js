@@ -14,13 +14,19 @@ const layer4 = document.querySelector("#layer4");
 const layer5 = document.querySelector("#layer5");
 const layer6 = document.querySelector("#layer6");
 
+const audioGameOver = new Audio('assets/Sound/mixkit-fairytale-game-over-1945.wav');
+const audioScream = new Audio('assets/Sound/scream.mp3');
+const audioJump = new Audio('assets/Sound/mixkit-quick-jump-arcade-game-239.wav') 
+
 const pulo = () => {
     witch.classList.add("pulo");
 
     setTimeout(() => {
         witch.classList.remove("pulo");
     }, 700)
-}
+
+    audioJump.play();
+ }
 
 document.addEventListener("keydown", pulo)
 document.addEventListener("click", pulo)
@@ -56,6 +62,9 @@ const loopGame = setInterval(() => {
         layer6.style.animation = "none";
 
         gameOver.style.display = "block";
+
+        audioScream.play();
+        audioGameOver.play();
 
         clearInterval(loopGame);
 
