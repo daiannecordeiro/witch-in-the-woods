@@ -22,7 +22,7 @@
   <br>
   <p>Créditos para a música: <a href="https://www.chosic.com/download-audio/29628/">The Lone Wolf - Alexander Nakarada</a></p>
   <br>
-  <p>Créditos para a SFX: <a href="https://mixkit.co/free-sound-effects/">MixKit</a> e <a href="https://www.dreamstime.com/sound-horror-noise-scared-girl-scream-usable-game-movie-distance-mid-acoustic-processed-scared-girl-scream-audio176546478">DreamStime</a> </p>
+  <p>Créditos para a FSX: <a href="https://mixkit.co/free-sound-effects/">MixKit</a> e <a href="https://www.dreamstime.com/sound-horror-noise-scared-girl-scream-usable-game-movie-distance-mid-acoustic-processed-scared-girl-scream-audio176546478">DreamStime</a> </p>
   <br>
   <p>Créditos para a arte da personagem principal: <a href="https://www.behance.net/ilustradai">Daianne Cordeiro</a> </p>
 </div>
