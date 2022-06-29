@@ -37,7 +37,6 @@ const loopGame = setInterval(() => {
   const thornPosition = thorn.offsetLeft;
   const witchPosition = +window.getComputedStyle(witch).bottom.replace("px", "");
     
-
   if ((pumpkinPosition <= 120 && pumpkinPosition > 0 && witchPosition < 80) || (thornPosition <= 180 && thornPosition > 0 && witchPosition < 80)) {
     pumpkin.style.animation = "none";
     pumpkin.style.left = `${pumpkinPosition}px`;
