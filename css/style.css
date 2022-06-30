@@ -144,13 +144,13 @@
 #layer3-luz{
     position: absolute;
     bottom:0;
-    margin-bottom: 250px;
+    margin-bottom: 150px;
 }
 
 #layer5-luz{
     position: absolute;
     bottom:0;
-    margin-bottom: 250px;
+    margin-bottom: 150px;
 }
 
 @keyframes layer3{

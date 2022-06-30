@@ -33,7 +33,7 @@ const pulo = () => {
 }
 
 document.addEventListener("keydown", pulo)
-document.addEventListener("click", pulo)
+document.addEventListener("touchstart", pulo)
 
 function startGame() {
   audioBack.play();
